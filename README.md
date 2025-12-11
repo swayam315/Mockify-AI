@@ -1,105 +1,112 @@
-Mockify AI — README.md
-⭐ Overview
-**Mockify AI is an advanced mock interview platform designed to help users practice both coding and HR-style interview rounds with an intelligent AI experience.**
+# Mockify AI
 
-*Current system capabilities include:*
--AI-assisted coding interview simulation
--Scoring, complexity analysis, and technical feedback
-->HR/behavioral Q&A interactions
-->Modern user interface with pricing, about, login, and dashboard views
+---
 
-The platform is 75% complete, and upcoming versions will include a connected backend & enhanced features to make it fully robust.
+## ⭐ Overview
 
-📁 Project Structure
+Mockify AI is a modern mock interview platform built to help users practice *coding rounds* and *HR-style interviews* with intelligent AI assistance.
+
+Current version is *~75% complete* and already supports:
+
+- AI-assisted *coding interview simulation*
+- *Score, complexity & feedback* generation
+- *HR / behavioral Q&A* interactions
+- Modern UI with *pricing, about, login & dashboard*
+
+Upcoming development will include backend connectivity, user accounts, analytics, and added robustness.
+
+---
+
+## 📁 Project Structure
+
+
 index.html        → Landing page  
 aboutus.html      → About & roadmap  
-interview.html    → Coding + HR interview interface  
-price.html        → Pricing page  
+interview.html    → Coding + HR interface  
+price.html        → Pricing section  
 style.css         → Custom styles  
-script.js         → UI logic, auth behavior, config handling
-
-⚙ Setup Instructions
-
-Place all project files in one folder.
-
-(Optional) Add Firebase config if you want auth enabled:
-
-<script>
-  window.__firebase_config = JSON.stringify({
-    apiKey: "YOUR_KEY",
-    projectId: "YOUR_PROJECT"
-  });
-</script>
+script.js         → UI logic, authentication handling, config loading
 
 
-Run any local server:
+---
 
-python3 -m http.server 8000
+## ⚙ Setup Instructions
+
+1. Place all project files in one folder.  
+2. (Optional) Add Firebase config for authentication features:
+   html
+   <script>
+     window.__firebase_config = JSON.stringify({
+       apiKey: "YOUR_KEY",
+       projectId: "YOUR_PROJECT"
+     });
+   </script>
+   
+3. Start a local dev server:
+   bash
+   python3 -m http.server 8000
+   
+4. Visit: http://localhost:8000  
+5. Use demo credentials: *admin / admin123*
+
+---
+
+## 🏗 Architecture Overview
+
+- Built using *HTML, **TailwindCSS, and **JavaScript*  
+- AI-powered features call a function like callGemini() for dynamic responses  
+- Backend endpoints will be integrated in the next development phase  
+- Designed for scalability and future enhancements (user accounts, history tracking, analytics)
+
+---
+
+## ▶ How to Run an Interview Session
+
+1. Login and navigate to *Start Interview*  
+2. Choose coding or HR mode  
+3. Submit your answer  
+4. AI returns structured feedback, example:
 
 
-Open http://localhost:8000
-
-Use demo login credentials: admin / admin123
-
-🏗 Architecture Overview
-
-Core system built using HTML, TailwindCSS, JavaScript
-
-AI-driven features use a function such as callGemini()
-
-Backend endpoints will be integrated soon to make the entire flow fully functional
-
-Designed with scalability in mind: user accounts, progress tracking, and advanced analytics will be integrated in the next phases
-
-▶ How to Run an Interview Session
-
-Login → Open Start Interview
-
-Choose HR or Coding challenge
-
-Submit your answer
-
-The system returns structured AI feedback:
-
-SCORE: 0–100
+SCORE: 82
 COMPLEXITY: O(n)
-FEEDBACK: Brief technical review
+FEEDBACK: The solution is efficient but lacks edge-case handling...
 
-🔌 Backend Endpoints (Planned Integration)
 
-To complete the system’s backend development:
+---
 
-POST /api/gemini
+## 🔌 Planned Backend Endpoints
 
-Handles AI responses for coding & HR questions.
-Expected output format:
+### POST /api/gemini
+Handles AI analysis for coding & HR responses.  
+Expected response format:
 
 SCORE: ...
 COMPLEXITY: ...
 FEEDBACK: ...
 
-POST /api/login
 
-Authenticates users and manages dashboard access.
+### POST /api/login
+Authenticates users and manages sessions.
 
-These integrations will make the platform production-ready.
+These will complete the platform’s transition to a fully robust production system.
 
-📦 Dependencies
+---
 
-TailwindCSS
+## 📦 Dependencies
 
-Lucide Icons
+- TailwindCSS  
+- Lucide Icons  
+- Google Fonts  
+- Firebase (optional for auth)
 
-Google Fonts
+---
 
-Firebase (optional)
+## 👥 Contributors
 
-👥 Contributors
+- *Swayam Khangaonkar* — AI  
+- *Omkar S* — Product & Design  
+- *Sarthak Chillal* — Frontend  
+- *Aakash Iti* — Backend  
 
-Swayam Khangaonkar — AI
-
-Omkar S — Product & Design
-
-Sarthak Chillal — Frontend
-
-Aakash Iti — Backend
+---
