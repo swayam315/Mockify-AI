@@ -4,7 +4,7 @@
 
 ## ⭐ Overview
 
-Mockify AI is a modern mock interview platform built to help users practice *coding rounds* and *HR-style interviews* with intelligent AI assistance. **Working Demo video Link-->**
+Mockify AI is a modern mock interview platform built to help users practice *coding rounds* and *HR-style interviews* with intelligent AI assistance. **Working Demo video Link--> https://drive.google.com/drive/folders/1dQNTH-52FdjeGqcoUvyIThUuDDfnmMGD?usp=drive_link**
 
 Current version is *~85% complete* and already supports:  **deployed link--> https://mockify-ai-ashy.vercel.app/**
 
