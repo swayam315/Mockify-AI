@@ -6,7 +6,7 @@
 
 Mockify AI is a modern mock interview platform built to help users practice *coding rounds* and *HR-style interviews* with intelligent AI assistance.
 
-Current version is *~85% complete* and already supports:
+Current version is *~85% complete* and already supports:  **deployed link--> https://mockify-ai-ashy.vercel.app/**
 
 - AI-assisted *coding interview simulation*
 - *Score, complexity & feedback* generation
@@ -32,22 +32,12 @@ script.js         → UI logic, authentication handling, config loading
 
 ## ⚙ Setup Instructions
 
-1. Place all project files in one folder.  
-2. (Optional) Add Firebase config for authentication features:
-   html
-   <script>
-     window.__firebase_config = JSON.stringify({
-       apiKey: "YOUR_KEY",
-       projectId: "YOUR_PROJECT"
-     });
-   </script>
-   
-3. Start a local dev server:
-   bash
-   python3 -m http.server 8000
-   
-4. Visit: http://localhost:8000  
-5. Use demo credentials: *admin / admin123*
+1. Download the zip file of the repository
+2. Open the folder and unzip the file
+3. Open in the vs code full folder
+4. And make sure the API key is there in the frontend or search(ctrl+F) this const apiKey = (gemini key)
+5. If the gemini key is not working then replace with this --> AIzaSyB2EoGXF8tt6vhzrpxYXOzmjJQqk_QFRBs
+**6.  And open the index.html in browser else check the deployed link --> https://mockify-ai-ashy.vercel.app/**
 
 ---
 
@@ -62,7 +52,7 @@ script.js         → UI logic, authentication handling, config loading
 
 ## ▶ How to Run an Interview Session
 
-1. Login and navigate to *Start Interview*  
+1. Login and navigate to *Quick Start*  
 2. Choose coding or HR mode  
 3. Submit your answer  
 4. AI returns structured feedback, example:
