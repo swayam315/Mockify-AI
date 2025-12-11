@@ -1,17 +1,12 @@
 Mockify AI — README.md
 ⭐ Overview
-
 **Mockify AI is an advanced mock interview platform designed to help users practice both coding and HR-style interview rounds with an intelligent AI experience.**
 
-Current system capabilities include:
-
-AI-assisted coding interview simulation
-
-Scoring, complexity analysis, and technical feedback
-
-HR/behavioral Q&A interactions
-
-Modern user interface with pricing, about, login, and dashboard views
+**Current system capabilities include:**
+-AI-assisted coding interview simulation
+-Scoring, complexity analysis, and technical feedback
+->HR/behavioral Q&A interactions
+->Modern user interface with pricing, about, login, and dashboard views
 
 The platform is 75% complete, and upcoming versions will include a connected backend & enhanced features to make it fully robust.
 
